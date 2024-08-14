@@ -1,0 +1,12 @@
+--cpu Cortex-M0+
+".\output\exe\startup_cw32l031.o"
+".\output\exe\system_cw32l031.o"
+".\output\exe\main.o"
+".\output\exe\interrupts_cw32l031.o"
+".\output\exe\cw32l031_rcc.o"
+".\output\exe\cw32l031_gpio.o"
+".\output\exe\cw32l031_flash.o"
+--library_type=microlib --strict --scatter ".\output\exe\Project.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals
+--list ".\output\list\Project.map" -o .\output\exe\Project.axf

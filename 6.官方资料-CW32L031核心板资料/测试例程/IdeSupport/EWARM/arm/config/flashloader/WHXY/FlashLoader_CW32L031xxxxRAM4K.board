@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flash_board>
+    <pass>
+        <loader>$TOOLKIT_DIR$\config\flashloader\WHXY\FlashLoader_CW32L031xxxxRAM4K.flash</loader>
+        <range>CODE 0x0 0xffff</range>
+    </pass>
+</flash_board>

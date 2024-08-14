@@ -1,0 +1,27 @@
+[FILEFORMAT]
+rev=1.6
+
+[CHIP]
+name=CW32L031
+endiansupport=le
+thumbsupport=true
+armsupport=false
+fpu=None
+SIMD=false
+
+
+JTAG=false
+SWD=true
+SWO_TraceD0=false
+
+[CORE]
+name=Cortex-M0+
+
+[DDF FILE]
+name=WHXY/CW32L031.ddf
+
+[LINKER FILE]
+name=$TOOLKIT_DIR$/config/linker/WHXY/CW32L031.icf
+
+[FLASH LOADER]
+little=$TOOLKIT_DIR$/config/flashloader/WHXY/FlashLoader_CW32L031xxxxRAM8K.board
