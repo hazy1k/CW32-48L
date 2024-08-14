@@ -1,0 +1,369 @@
+Component: ARM Compiler 5.06 update 7 (build 960) Tool: armlink [4d3601]
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      192  startup_cw32l031.o(RESET)
+    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  ldiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry12a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry12b.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/string/memset.c         0x00000000   Number         0  memseta.o ABSOLUTE
+    ..\..\..\..\IdeSupport\MDK\startup_cw32l031.s 0x00000000   Number         0  startup_cw32l031.o ABSOLUTE
+    ..\..\..\..\Libraries\src\cw32l031_atim.c 0x00000000   Number         0  cw32l031_atim.o ABSOLUTE
+    ..\..\..\..\Libraries\src\cw32l031_gpio.c 0x00000000   Number         0  cw32l031_gpio.o ABSOLUTE
+    ..\..\..\..\Libraries\src\cw32l031_rcc.c 0x00000000   Number         0  cw32l031_rcc.o ABSOLUTE
+    ..\..\..\..\Libraries\src\system_cw32l031.c 0x00000000   Number         0  system_cw32l031.o ABSOLUTE
+    ..\USER\src\interrupts_cw32l031.c        0x00000000   Number         0  interrupts_cw32l031.o ABSOLUTE
+    ..\USER\src\main.c                       0x00000000   Number         0  main.o ABSOLUTE
+    ..\\..\\..\\..\\Libraries\\src\\cw32l031_atim.c 0x00000000   Number         0  cw32l031_atim.o ABSOLUTE
+    ..\\..\\..\\..\\Libraries\\src\\cw32l031_gpio.c 0x00000000   Number         0  cw32l031_gpio.o ABSOLUTE
+    ..\\..\\..\\..\\Libraries\\src\\cw32l031_rcc.c 0x00000000   Number         0  cw32l031_rcc.o ABSOLUTE
+    ..\\..\\..\\..\\Libraries\\src\\system_cw32l031.c 0x00000000   Number         0  system_cw32l031.o ABSOLUTE
+    ..\\USER\\src\\main.c                    0x00000000   Number         0  main.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    .ARM.Collect$$$$00000000                 0x000000c0   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x000000c0   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x000000c4   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x000000c8   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x000000c8   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x000000c8   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000E                 0x000000d0   Section        4  entry12b.o(.ARM.Collect$$$$0000000E)
+    .ARM.Collect$$$$0000000F                 0x000000d4   Section        0  entry10a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00000011                 0x000000d4   Section        0  entry11a.o(.ARM.Collect$$$$00000011)
+    .ARM.Collect$$$$00002712                 0x000000d4   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x000000d4   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x000000d8   Section       40  startup_cw32l031.o(.text)
+    .text                                    0x00000100   Section        0  memseta.o(.text)
+    .text                                    0x00000124   Section       36  init.o(.text)
+    i.ADC_IRQHandler                         0x00000148   Section        0  interrupts_cw32l031.o(i.ADC_IRQHandler)
+    i.ATIM_ClearITPendingBit                 0x0000014c   Section        0  cw32l031_atim.o(i.ATIM_ClearITPendingBit)
+    i.ATIM_Cmd                               0x00000158   Section        0  cw32l031_atim.o(i.ATIM_Cmd)
+    i.ATIM_GetITStatus                       0x00000170   Section        0  cw32l031_atim.o(i.ATIM_GetITStatus)
+    i.ATIM_IRQHandler                        0x00000188   Section        0  interrupts_cw32l031.o(i.ATIM_IRQHandler)
+    i.ATIM_IRQHandlerCallBack                0x00000190   Section        0  main.o(i.ATIM_IRQHandlerCallBack)
+    i.ATIM_ITConfig                          0x000001b4   Section        0  cw32l031_atim.o(i.ATIM_ITConfig)
+    i.ATIM_Init                              0x000001d4   Section        0  cw32l031_atim.o(i.ATIM_Init)
+    i.AWT_IRQHandler                         0x00000308   Section        0  interrupts_cw32l031.o(i.AWT_IRQHandler)
+    i.BTIM1_IRQHandler                       0x0000030a   Section        0  interrupts_cw32l031.o(i.BTIM1_IRQHandler)
+    i.BTIM2_IRQHandler                       0x0000030c   Section        0  interrupts_cw32l031.o(i.BTIM2_IRQHandler)
+    i.BTIM3_IRQHandler                       0x0000030e   Section        0  interrupts_cw32l031.o(i.BTIM3_IRQHandler)
+    i.DMACH1_IRQHandler                      0x00000310   Section        0  interrupts_cw32l031.o(i.DMACH1_IRQHandler)
+    i.DMACH23_IRQHandler                     0x00000312   Section        0  interrupts_cw32l031.o(i.DMACH23_IRQHandler)
+    i.DMACH4_IRQHandler                      0x00000314   Section        0  interrupts_cw32l031.o(i.DMACH4_IRQHandler)
+    i.FAULT_IRQHandler                       0x00000316   Section        0  interrupts_cw32l031.o(i.FAULT_IRQHandler)
+    i.FLASHRAM_IRQHandler                    0x00000318   Section        0  interrupts_cw32l031.o(i.FLASHRAM_IRQHandler)
+    i.GPIOA_IRQHandler                       0x0000031a   Section        0  interrupts_cw32l031.o(i.GPIOA_IRQHandler)
+    i.GPIOB_IRQHandler                       0x0000031c   Section        0  interrupts_cw32l031.o(i.GPIOB_IRQHandler)
+    i.GPIOC_IRQHandler                       0x0000031e   Section        0  interrupts_cw32l031.o(i.GPIOC_IRQHandler)
+    i.GPIOF_IRQHandler                       0x00000320   Section        0  interrupts_cw32l031.o(i.GPIOF_IRQHandler)
+    i.GPIO_Configuration                     0x00000322   Section        0  main.o(i.GPIO_Configuration)
+    i.GPIO_Init                              0x00000344   Section        0  cw32l031_gpio.o(i.GPIO_Init)
+    i.GTIM1_IRQHandler                       0x00000454   Section        0  interrupts_cw32l031.o(i.GTIM1_IRQHandler)
+    i.GTIM2_IRQHandler                       0x00000456   Section        0  interrupts_cw32l031.o(i.GTIM2_IRQHandler)
+    i.HardFault_Handler                      0x00000458   Section        0  interrupts_cw32l031.o(i.HardFault_Handler)
+    i.I2C1_IRQHandler                        0x0000045c   Section        0  interrupts_cw32l031.o(i.I2C1_IRQHandler)
+    i.LVD_IRQHandler                         0x0000045e   Section        0  interrupts_cw32l031.o(i.LVD_IRQHandler)
+    i.NMI_Handler                            0x00000460   Section        0  interrupts_cw32l031.o(i.NMI_Handler)
+    i.NVIC_Configuration                     0x00000464   Section        0  main.o(i.NVIC_Configuration)
+    i.PendSV_Handler                         0x0000048c   Section        0  interrupts_cw32l031.o(i.PendSV_Handler)
+    i.RCC_Configuration                      0x00000490   Section        0  main.o(i.RCC_Configuration)
+    i.RCC_HSI_Enable                         0x000004b8   Section        0  cw32l031_rcc.o(i.RCC_HSI_Enable)
+    i.RCC_IRQHandler                         0x00000550   Section        0  interrupts_cw32l031.o(i.RCC_IRQHandler)
+    i.RTC_IRQHandler                         0x00000552   Section        0  interrupts_cw32l031.o(i.RTC_IRQHandler)
+    i.SPI1_IRQHandler                        0x00000554   Section        0  interrupts_cw32l031.o(i.SPI1_IRQHandler)
+    i.SVC_Handler                            0x00000556   Section        0  interrupts_cw32l031.o(i.SVC_Handler)
+    i.SystemCoreClockUpdate                  0x00000558   Section        0  system_cw32l031.o(i.SystemCoreClockUpdate)
+    i.SystemInit                             0x00000568   Section        0  system_cw32l031.o(i.SystemInit)
+    i.UART1_IRQHandler                       0x000005a4   Section        0  interrupts_cw32l031.o(i.UART1_IRQHandler)
+    i.UART2_IRQHandler                       0x000005a6   Section        0  interrupts_cw32l031.o(i.UART2_IRQHandler)
+    i.UART3_IRQHandler                       0x000005a8   Section        0  interrupts_cw32l031.o(i.UART3_IRQHandler)
+    i.VC1_IRQHandler                         0x000005aa   Section        0  interrupts_cw32l031.o(i.VC1_IRQHandler)
+    i.VC2_IRQHandler                         0x000005ac   Section        0  interrupts_cw32l031.o(i.VC2_IRQHandler)
+    i.WDT_IRQHandler                         0x000005ae   Section        0  interrupts_cw32l031.o(i.WDT_IRQHandler)
+    i.__scatterload_copy                     0x000005b0   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x000005be   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x000005c0   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.assert_failed                          0x000005ce   Section        0  main.o(i.assert_failed)
+    i.main                                   0x000005d0   Section        0  main.o(i.main)
+    .data                                    0x20000000   Section        4  system_cw32l031.o(.data)
+    STACK                                    0x20000008   Section      512  startup_cw32l031.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __Vectors                                0x00000000   Data           0  startup_cw32l031.o(RESET)
+    __arm_fini_                               - Undefined Weak Reference
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_End                            0x000000c0   Data           0  startup_cw32l031.o(RESET)
+    __Vectors_Size                           0x000000c0   Number         0  startup_cw32l031.o ABSOLUTE
+    __main                                   0x000000c1   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x000000c1   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x000000c5   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x000000c9   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x000000c9   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x000000c9   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x000000c9   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_lib_shutdown_fini                   0x000000d1   Thumb Code     0  entry12b.o(.ARM.Collect$$$$0000000E)
+    __rt_final_cpp                           0x000000d5   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000F)
+    __rt_final_exit                          0x000000d5   Thumb Code     0  entry11a.o(.ARM.Collect$$$$00000011)
+    Reset_Handler                            0x000000d9   Thumb Code    14  startup_cw32l031.o(.text)
+    SysTick_Handler                          0x000000ef   Thumb Code     2  startup_cw32l031.o(.text)
+    CLKFAULT_IRQHandler                      0x000000f1   Thumb Code     0  startup_cw32l031.o(.text)
+    SYSCTRL_IRQHandler                       0x000000f1   Thumb Code     0  startup_cw32l031.o(.text)
+    __aeabi_memset                           0x00000101   Thumb Code    14  memseta.o(.text)
+    __aeabi_memset4                          0x00000101   Thumb Code     0  memseta.o(.text)
+    __aeabi_memset8                          0x00000101   Thumb Code     0  memseta.o(.text)
+    __aeabi_memclr                           0x0000010f   Thumb Code     4  memseta.o(.text)
+    __aeabi_memclr4                          0x0000010f   Thumb Code     0  memseta.o(.text)
+    __aeabi_memclr8                          0x0000010f   Thumb Code     0  memseta.o(.text)
+    _memset$wrapper                          0x00000113   Thumb Code    18  memseta.o(.text)
+    __scatterload                            0x00000125   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x00000125   Thumb Code     0  init.o(.text)
+    ADC_IRQHandler                           0x00000149   Thumb Code     2  interrupts_cw32l031.o(i.ADC_IRQHandler)
+    ATIM_ClearITPendingBit                   0x0000014d   Thumb Code     8  cw32l031_atim.o(i.ATIM_ClearITPendingBit)
+    ATIM_Cmd                                 0x00000159   Thumb Code    20  cw32l031_atim.o(i.ATIM_Cmd)
+    ATIM_GetITStatus                         0x00000171   Thumb Code    20  cw32l031_atim.o(i.ATIM_GetITStatus)
+    ATIM_IRQHandler                          0x00000189   Thumb Code     8  interrupts_cw32l031.o(i.ATIM_IRQHandler)
+    ATIM_IRQHandlerCallBack                  0x00000191   Thumb Code    30  main.o(i.ATIM_IRQHandlerCallBack)
+    ATIM_ITConfig                            0x000001b5   Thumb Code    28  cw32l031_atim.o(i.ATIM_ITConfig)
+    ATIM_Init                                0x000001d5   Thumb Code   254  cw32l031_atim.o(i.ATIM_Init)
+    AWT_IRQHandler                           0x00000309   Thumb Code     2  interrupts_cw32l031.o(i.AWT_IRQHandler)
+    BTIM1_IRQHandler                         0x0000030b   Thumb Code     2  interrupts_cw32l031.o(i.BTIM1_IRQHandler)
+    BTIM2_IRQHandler                         0x0000030d   Thumb Code     2  interrupts_cw32l031.o(i.BTIM2_IRQHandler)
+    BTIM3_IRQHandler                         0x0000030f   Thumb Code     2  interrupts_cw32l031.o(i.BTIM3_IRQHandler)
+    DMACH1_IRQHandler                        0x00000311   Thumb Code     2  interrupts_cw32l031.o(i.DMACH1_IRQHandler)
+    DMACH23_IRQHandler                       0x00000313   Thumb Code     2  interrupts_cw32l031.o(i.DMACH23_IRQHandler)
+    DMACH4_IRQHandler                        0x00000315   Thumb Code     2  interrupts_cw32l031.o(i.DMACH4_IRQHandler)
+    FAULT_IRQHandler                         0x00000317   Thumb Code     2  interrupts_cw32l031.o(i.FAULT_IRQHandler)
+    FLASHRAM_IRQHandler                      0x00000319   Thumb Code     2  interrupts_cw32l031.o(i.FLASHRAM_IRQHandler)
+    GPIOA_IRQHandler                         0x0000031b   Thumb Code     2  interrupts_cw32l031.o(i.GPIOA_IRQHandler)
+    GPIOB_IRQHandler                         0x0000031d   Thumb Code     2  interrupts_cw32l031.o(i.GPIOB_IRQHandler)
+    GPIOC_IRQHandler                         0x0000031f   Thumb Code     2  interrupts_cw32l031.o(i.GPIOC_IRQHandler)
+    GPIOF_IRQHandler                         0x00000321   Thumb Code     2  interrupts_cw32l031.o(i.GPIOF_IRQHandler)
+    GPIO_Configuration                       0x00000323   Thumb Code    34  main.o(i.GPIO_Configuration)
+    GPIO_Init                                0x00000345   Thumb Code   268  cw32l031_gpio.o(i.GPIO_Init)
+    GTIM1_IRQHandler                         0x00000455   Thumb Code     2  interrupts_cw32l031.o(i.GTIM1_IRQHandler)
+    GTIM2_IRQHandler                         0x00000457   Thumb Code     2  interrupts_cw32l031.o(i.GTIM2_IRQHandler)
+    HardFault_Handler                        0x00000459   Thumb Code     4  interrupts_cw32l031.o(i.HardFault_Handler)
+    I2C1_IRQHandler                          0x0000045d   Thumb Code     2  interrupts_cw32l031.o(i.I2C1_IRQHandler)
+    LVD_IRQHandler                           0x0000045f   Thumb Code     2  interrupts_cw32l031.o(i.LVD_IRQHandler)
+    NMI_Handler                              0x00000461   Thumb Code     2  interrupts_cw32l031.o(i.NMI_Handler)
+    NVIC_Configuration                       0x00000465   Thumb Code    34  main.o(i.NVIC_Configuration)
+    PendSV_Handler                           0x0000048d   Thumb Code     2  interrupts_cw32l031.o(i.PendSV_Handler)
+    RCC_Configuration                        0x00000491   Thumb Code    34  main.o(i.RCC_Configuration)
+    RCC_HSI_Enable                           0x000004b9   Thumb Code    94  cw32l031_rcc.o(i.RCC_HSI_Enable)
+    RCC_IRQHandler                           0x00000551   Thumb Code     2  interrupts_cw32l031.o(i.RCC_IRQHandler)
+    RTC_IRQHandler                           0x00000553   Thumb Code     2  interrupts_cw32l031.o(i.RTC_IRQHandler)
+    SPI1_IRQHandler                          0x00000555   Thumb Code     2  interrupts_cw32l031.o(i.SPI1_IRQHandler)
+    SVC_Handler                              0x00000557   Thumb Code     2  interrupts_cw32l031.o(i.SVC_Handler)
+    SystemCoreClockUpdate                    0x00000559   Thumb Code     8  system_cw32l031.o(i.SystemCoreClockUpdate)
+    SystemInit                               0x00000569   Thumb Code    50  system_cw32l031.o(i.SystemInit)
+    UART1_IRQHandler                         0x000005a5   Thumb Code     2  interrupts_cw32l031.o(i.UART1_IRQHandler)
+    UART2_IRQHandler                         0x000005a7   Thumb Code     2  interrupts_cw32l031.o(i.UART2_IRQHandler)
+    UART3_IRQHandler                         0x000005a9   Thumb Code     2  interrupts_cw32l031.o(i.UART3_IRQHandler)
+    VC1_IRQHandler                           0x000005ab   Thumb Code     2  interrupts_cw32l031.o(i.VC1_IRQHandler)
+    VC2_IRQHandler                           0x000005ad   Thumb Code     2  interrupts_cw32l031.o(i.VC2_IRQHandler)
+    WDT_IRQHandler                           0x000005af   Thumb Code     2  interrupts_cw32l031.o(i.WDT_IRQHandler)
+    __scatterload_copy                       0x000005b1   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x000005bf   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x000005c1   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    assert_failed                            0x000005cf   Thumb Code     2  main.o(i.assert_failed)
+    main                                     0x000005d1   Thumb Code    88  main.o(i.main)
+    Region$$Table$$Base                      0x0000062c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0000064c   Number         0  anon$$obj.o(Region$$Table)
+    SystemCoreClock                          0x20000000   Data           4  system_cw32l031.o(.data)
+    __initial_sp                             0x20000208   Data           0  startup_cw32l031.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000c1
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00000650, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x0000064c, Max: 0x00010000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x000000c0   Data   RO            3    RESET               startup_cw32l031.o
+    0x000000c0   0x000000c0   0x00000000   Code   RO         1025  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x000000c0   0x000000c0   0x00000004   Code   RO         1034    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x000000c4   0x000000c4   0x00000004   Code   RO         1037    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x000000c8   0x000000c8   0x00000000   Code   RO         1039    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x000000c8   0x000000c8   0x00000000   Code   RO         1041    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x000000c8   0x000000c8   0x00000008   Code   RO         1042    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x000000d0   0x000000d0   0x00000004   Code   RO         1049    .ARM.Collect$$$$0000000E  mc_p.l(entry12b.o)
+    0x000000d4   0x000000d4   0x00000000   Code   RO         1044    .ARM.Collect$$$$0000000F  mc_p.l(entry10a.o)
+    0x000000d4   0x000000d4   0x00000000   Code   RO         1046    .ARM.Collect$$$$00000011  mc_p.l(entry11a.o)
+    0x000000d4   0x000000d4   0x00000004   Code   RO         1035    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x000000d8   0x000000d8   0x00000028   Code   RO            4    .text               startup_cw32l031.o
+    0x00000100   0x00000100   0x00000024   Code   RO         1032    .text               mc_p.l(memseta.o)
+    0x00000124   0x00000124   0x00000024   Code   RO         1052    .text               mc_p.l(init.o)
+    0x00000148   0x00000148   0x00000002   Code   RO          161    i.ADC_IRQHandler    interrupts_cw32l031.o
+    0x0000014a   0x0000014a   0x00000002   PAD
+    0x0000014c   0x0000014c   0x0000000c   Code   RO          370    i.ATIM_ClearITPendingBit  cw32l031_atim.o
+    0x00000158   0x00000158   0x00000018   Code   RO          371    i.ATIM_Cmd          cw32l031_atim.o
+    0x00000170   0x00000170   0x00000018   Code   RO          381    i.ATIM_GetITStatus  cw32l031_atim.o
+    0x00000188   0x00000188   0x00000008   Code   RO          162    i.ATIM_IRQHandler   interrupts_cw32l031.o
+    0x00000190   0x00000190   0x00000024   Code   RO           91    i.ATIM_IRQHandlerCallBack  main.o
+    0x000001b4   0x000001b4   0x00000020   Code   RO          388    i.ATIM_ITConfig     cw32l031_atim.o
+    0x000001d4   0x000001d4   0x00000134   Code   RO          389    i.ATIM_Init         cw32l031_atim.o
+    0x00000308   0x00000308   0x00000002   Code   RO          163    i.AWT_IRQHandler    interrupts_cw32l031.o
+    0x0000030a   0x0000030a   0x00000002   Code   RO          164    i.BTIM1_IRQHandler  interrupts_cw32l031.o
+    0x0000030c   0x0000030c   0x00000002   Code   RO          165    i.BTIM2_IRQHandler  interrupts_cw32l031.o
+    0x0000030e   0x0000030e   0x00000002   Code   RO          166    i.BTIM3_IRQHandler  interrupts_cw32l031.o
+    0x00000310   0x00000310   0x00000002   Code   RO          167    i.DMACH1_IRQHandler  interrupts_cw32l031.o
+    0x00000312   0x00000312   0x00000002   Code   RO          168    i.DMACH23_IRQHandler  interrupts_cw32l031.o
+    0x00000314   0x00000314   0x00000002   Code   RO          169    i.DMACH4_IRQHandler  interrupts_cw32l031.o
+    0x00000316   0x00000316   0x00000002   Code   RO          170    i.FAULT_IRQHandler  interrupts_cw32l031.o
+    0x00000318   0x00000318   0x00000002   Code   RO          171    i.FLASHRAM_IRQHandler  interrupts_cw32l031.o
+    0x0000031a   0x0000031a   0x00000002   Code   RO          172    i.GPIOA_IRQHandler  interrupts_cw32l031.o
+    0x0000031c   0x0000031c   0x00000002   Code   RO          173    i.GPIOB_IRQHandler  interrupts_cw32l031.o
+    0x0000031e   0x0000031e   0x00000002   Code   RO          174    i.GPIOC_IRQHandler  interrupts_cw32l031.o
+    0x00000320   0x00000320   0x00000002   Code   RO          175    i.GPIOF_IRQHandler  interrupts_cw32l031.o
+    0x00000322   0x00000322   0x00000022   Code   RO           92    i.GPIO_Configuration  main.o
+    0x00000344   0x00000344   0x00000110   Code   RO          962    i.GPIO_Init         cw32l031_gpio.o
+    0x00000454   0x00000454   0x00000002   Code   RO          176    i.GTIM1_IRQHandler  interrupts_cw32l031.o
+    0x00000456   0x00000456   0x00000002   Code   RO          177    i.GTIM2_IRQHandler  interrupts_cw32l031.o
+    0x00000458   0x00000458   0x00000004   Code   RO          178    i.HardFault_Handler  interrupts_cw32l031.o
+    0x0000045c   0x0000045c   0x00000002   Code   RO          179    i.I2C1_IRQHandler   interrupts_cw32l031.o
+    0x0000045e   0x0000045e   0x00000002   Code   RO          180    i.LVD_IRQHandler    interrupts_cw32l031.o
+    0x00000460   0x00000460   0x00000002   Code   RO          181    i.NMI_Handler       interrupts_cw32l031.o
+    0x00000462   0x00000462   0x00000002   PAD
+    0x00000464   0x00000464   0x00000028   Code   RO           93    i.NVIC_Configuration  main.o
+    0x0000048c   0x0000048c   0x00000002   Code   RO          182    i.PendSV_Handler    interrupts_cw32l031.o
+    0x0000048e   0x0000048e   0x00000002   PAD
+    0x00000490   0x00000490   0x00000028   Code   RO           94    i.RCC_Configuration  main.o
+    0x000004b8   0x000004b8   0x00000098   Code   RO          681    i.RCC_HSI_Enable    cw32l031_rcc.o
+    0x00000550   0x00000550   0x00000002   Code   RO          183    i.RCC_IRQHandler    interrupts_cw32l031.o
+    0x00000552   0x00000552   0x00000002   Code   RO          184    i.RTC_IRQHandler    interrupts_cw32l031.o
+    0x00000554   0x00000554   0x00000002   Code   RO          185    i.SPI1_IRQHandler   interrupts_cw32l031.o
+    0x00000556   0x00000556   0x00000002   Code   RO          186    i.SVC_Handler       interrupts_cw32l031.o
+    0x00000558   0x00000558   0x00000010   Code   RO           14    i.SystemCoreClockUpdate  system_cw32l031.o
+    0x00000568   0x00000568   0x0000003c   Code   RO           15    i.SystemInit        system_cw32l031.o
+    0x000005a4   0x000005a4   0x00000002   Code   RO          187    i.UART1_IRQHandler  interrupts_cw32l031.o
+    0x000005a6   0x000005a6   0x00000002   Code   RO          188    i.UART2_IRQHandler  interrupts_cw32l031.o
+    0x000005a8   0x000005a8   0x00000002   Code   RO          189    i.UART3_IRQHandler  interrupts_cw32l031.o
+    0x000005aa   0x000005aa   0x00000002   Code   RO          190    i.VC1_IRQHandler    interrupts_cw32l031.o
+    0x000005ac   0x000005ac   0x00000002   Code   RO          191    i.VC2_IRQHandler    interrupts_cw32l031.o
+    0x000005ae   0x000005ae   0x00000002   Code   RO          192    i.WDT_IRQHandler    interrupts_cw32l031.o
+    0x000005b0   0x000005b0   0x0000000e   Code   RO         1060    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x000005be   0x000005be   0x00000002   Code   RO         1061    i.__scatterload_null  mc_p.l(handlers.o)
+    0x000005c0   0x000005c0   0x0000000e   Code   RO         1062    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x000005ce   0x000005ce   0x00000002   Code   RO           95    i.assert_failed     main.o
+    0x000005d0   0x000005d0   0x0000005c   Code   RO           96    i.main              main.o
+    0x0000062c   0x0000062c   0x00000020   Data   RO         1058    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0000064c, Size: 0x00000208, Max: 0x00002000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x0000064c   0x00000004   Data   RW           16    .data               system_cw32l031.o
+    0x20000004   0x00000650   0x00000004   PAD
+    0x20000008        -       0x00000200   Zero   RW            1    STACK               startup_cw32l031.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       400         70          0          0          0       3827   cw32l031_atim.o
+       272          4          0          0          0       1244   cw32l031_gpio.o
+       152         58          0          0          0        701   cw32l031_rcc.o
+        72          0          0          0          0      17905   interrupts_cw32l031.o
+       244         22          0          0          0      69927   main.o
+        40         14        192          0        512        776   startup_cw32l031.o
+        76         18          0          4          0     114327   system_cw32l031.o
+
+    ----------------------------------------------------------------------
+      1262        186        224          4        516     208707   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         6          0          0          0          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         4          0          0          0          0          0   entry12b.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+        36          0          0          0          0        100   memseta.o
+
+    ----------------------------------------------------------------------
+       126         16          0          0          0        168   Library Totals
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       126         16          0          0          0        168   mc_p.l
+
+    ----------------------------------------------------------------------
+       126         16          0          0          0        168   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      1388        202        224          4        516     207135   Grand Totals
+      1388        202        224          4        516     207135   ELF Image Totals
+      1388        202        224          4          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 1612 (   1.57kB)
+    Total RW  Size (RW Data + ZI Data)               520 (   0.51kB)
+    Total ROM Size (Code + RO Data + RW Data)       1616 (   1.58kB)
+
+==============================================================================
+

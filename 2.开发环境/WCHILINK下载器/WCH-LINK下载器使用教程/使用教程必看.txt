@@ -1,0 +1,6 @@
+WCH-LINK:   
+TXD接RXD：模式切换
+CON:灭--RV模式  ，亮--ARM
+
+首先点击“DapLinkSer”文件夹安装驱动
+在KEIL5环境下WCH-LINK要在“ARM”模式下，将WCH-Link切换到ARM模式，在Keil中选择CMSIS-DAP Debugger即可仿真调试
